@@ -20,9 +20,9 @@
           <element id="library" level="project" name="Gradle: javax.servlet:servlet-api:3.0-alpha-1" />
           <element id="library" level="project" name="Gradle: javax.servlet.jsp.jstl:javax.servlet.jsp.jstl-api:1.2.1" />
           <element id="library" level="project" name="Gradle: c3p0:c3p0:0.9.1.2" />
+          <element id="library" level="project" name="Gradle: mysql:mysql-connector-java:6.0.6" />
           <element id="library" level="project" name="Gradle: commons-dbutils:commons-dbutils:1.7" />
           <element id="library" level="project" name="Gradle: taglibs:standard:1.1.2" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/6.0.6/1d19b184dbc596008cc71c83596f051c3ec4097f/mysql-connector-java-6.0.6.jar" />
         </element>
       </element>
     </root>

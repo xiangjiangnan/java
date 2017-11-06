@@ -17,7 +17,7 @@ public class VoteDao {
         votelist = (List<Vote>) runner.query(sql,new BeanListHandler(Vote.class));
         return votelist;
     }
-    //根据id更新票数
+    //根据id更新票
     public void updateVoteById(int id) throws SQLException{
         QueryRunner runner = new QueryRunner(JDBCUtils.getDataSource());
         String sql = "update vote set ticket = ticket+1 where id=?";
